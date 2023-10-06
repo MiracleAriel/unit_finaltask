@@ -1,0 +1,8 @@
+1. Создадим файл average_calculator.py
+2. Теперь создадим файл test_average_calculator.py с тестами
+3. Теперь имеем класс AverageCalculator, который содержит методы для вычисления среднего значения и сравнения средних значений двух списков. 
+   также написаны тесты для этого класса с использованием библиотеки Pytest.
+4. Чтобы проверить покрытие кода тестами, установим библиотеку coverage и запустим ее:
+pip install coverage
+coverage run -m pytest test_average_calculator.py
+coverage report -m
